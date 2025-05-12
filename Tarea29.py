@@ -22,6 +22,6 @@
 # Visualizar los primeros números con mientras - while
 
 contador = 0
-while contador <=10:
+while contador <=5:
     print("Numero:",contador )
     contador +=1
