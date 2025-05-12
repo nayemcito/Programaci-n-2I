@@ -17,3 +17,11 @@
 #Simular un temporizador (contar regresivamente desde N).
 
 #Leer archivos línea por línea hasta fin de archivo.
+
+#MIENTRAS - WHILE
+# Visualizar los primeros números con mientras - while
+
+contador = 0
+while contador <=10:
+    print("Numero:",contador )
+    contador +=1
