@@ -8,3 +8,23 @@
 #Encontrar números primos en un rango dado.
 #Simular un temporizador (contar regresivamente desde N).
 #Leer archivos línea por línea hasta fin de archivo.
+print("\n4. Bienvenido:")
+dinerodisponible = 1000
+opcion = ""
+while opcion != "3":
+    print("1. Retirar")
+    print("2. Depositar")
+    print("3. Salir")
+    opcion = input("Opción: ")
+    if opcion == "1":
+        monto = float(input("Monto a retirar: "))
+        if monto <= dinerodisponible:
+            dinerodisponible -= monto
+            print(f"Nuevo saldo: {dinerodisponible}")
+        else:
+            print("Fondos insuficientes.")
+    elif opcion == "2":
+        monto = float(input("Monto a depositar: "))
+        dinerodisponible += monto
+        print(f"Nuevo saldo: {dinerodisponible}")
+print("Sesión finalizada.")

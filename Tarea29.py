@@ -1,22 +1,44 @@
-#Sumar números ingresados por el usuario hasta que ingrese 0.
+#1Sumar números ingresados por el usuario hasta que ingrese 0.
+suma = 0
+numero = int(input("Ingresa un número (0 para terminar): "))
 
-#Adivinar un número aleatorio entre 1 y 100 (pistas: "mayor" o "menor").
+while numero != 0:
+    suma += numero
+    numero = int(input("Ingresa otro número (0 para terminar): "))
 
-#Validar contraseña (repetir hasta que coincida con una guardada).
+print("La suma total es:", suma)
 
-#Simular un cajero automático (menú: retirar, depositar, salir).
+#2Adivinar un número aleatorio entre 1 y 100 (pistas: "mayor" o "menor").
 
-#Calcular la raíz cuadrada por aproximación (método babilónico).
+n = 30
+print("Adivina el número (1-100)")
+i = 0
 
-#Contar dígitos de un número entero (ej: 456 → 3).
+while i != n:
+    i = int(input("Tu intento: "))
+    if i < n:
+        print("Mayor")
+    elif i > n:
+        print("Menor")
 
-#Generar la secuencia de Fibonacci hasta un límite.
+print("¡Correcto!")
 
-#Encontrar números primos en un rango dado.
 
-#Simular un temporizador (contar regresivamente desde N).
+#3Validar contraseña (repetir hasta que coincida con una guardada).
 
-#Leer archivos línea por línea hasta fin de archivo.
+#4Simular un cajero automático (menú: retirar, depositar, salir).
+
+#5Calcular la raíz cuadrada por aproximación (método babilónico).
+
+#6Contar dígitos de un número entero (ej: 456 → 3).
+
+#7Generar la secuencia de Fibonacci hasta un límite.
+
+#8Encontrar números primos en un rango dado.
+
+#9Simular un temporizador (contar regresivamente desde N).
+
+#10Leer archivos línea por línea hasta fin de archivo.
 
 #MIENTRAS - WHILE
 # Visualizar los primeros números con mientras - while
